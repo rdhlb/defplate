@@ -1,0 +1,28 @@
+{
+  "name": "defplate",
+  "version": "0.0.1",
+  "description": "markup start template",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rdhlb/defplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "template",
+    "sass",
+    "markup"
+  ],
+  "author": "Max Radokhlib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdhlb/defplate/issues"
+  },
+  "homepage": "https://github.com/rdhlb/defplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "require-dir": "^0.3.2"
+  }
+}
