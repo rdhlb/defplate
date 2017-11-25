@@ -1,28 +1,23 @@
-body
-  background-color: blue
+@import "fonts"
+@import "libs"
+@import "vars"
+@import "utils"
+
+html, body
+	height: 100%
 
 body
-  display: flex
-  justify-content: space-between
-  align-items: space-between
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
 
-h1
-  color: green
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
 
-p
-  background-color: #ff0000
-  p
-    color: red
-      p
-        display: block
-          a
-            color: white
-            .test
-              text-align: center
-            .test
-              text-align: center
-
-.test
-  color: red
-  background-color: white
 
