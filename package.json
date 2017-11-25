@@ -15,6 +15,24 @@
     "sass",
     "markup"
   ],
+  "config": {
+    "src": {
+      "sass": "src/sass",
+      "libs": "src/libs",
+      "js": "src/js",
+      "html": "src",
+      "css": "src/css",
+      "img": "src/img",
+      "fonts": "src/fonts"
+    },
+    "build": {
+      "html": "build",
+      "css": "build/css",
+      "img": "build/img",
+      "js": "build/js",
+      "fonts": "build/fonts"
+    }
+  },
   "author": "Max Radokhlib",
   "license": "ISC",
   "bugs": {
@@ -22,7 +40,17 @@
   },
   "homepage": "https://github.com/rdhlb/defplate#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "require-dir": "^0.3.2"
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "postcss-csso": "^3.0.0"
   }
 }

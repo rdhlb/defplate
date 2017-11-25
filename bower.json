@@ -1,0 +1,26 @@
+{
+  "name": "defplate",
+  "description": "markup start template",
+  "main": "",
+  "authors": [
+    "Max Radokhlib"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "template",
+    "sass",
+    "markup"
+  ],
+  "homepage": "https://github.com/rdhlb/defplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
